@@ -28,7 +28,7 @@ export default function Page() {
             }
             
             const data = await response.json();
-            setInvoices(data);
+            setInvoices(data.data);
             console.log('Fetched data:', data);
           } catch (err) {
             console.error('Fetch error:', err);
