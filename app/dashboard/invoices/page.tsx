@@ -43,9 +43,9 @@ export default function Page() {
             aaa
             {invoices.length > 0 && invoices[0].name}
             {/*
-                        <Suspense fallback={<InvoicesTableSkeleton />}>
-                <InvoicesTable />
-            </Suspense>
+              <Suspense fallback={<InvoicesTableSkeleton />}>
+                  <InvoicesTable />
+              </Suspense>
             */}
 
         </div>
